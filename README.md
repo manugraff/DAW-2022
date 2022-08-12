@@ -1,1 +1,1 @@
-# Repositório da Disiplina DAW 2022
+# Repositório da Diciplina DAW 2022
