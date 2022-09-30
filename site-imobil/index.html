@@ -6,32 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--CSS Google Fonte-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <!-- CSS Normalize -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
 
-    <!--CSS Normalize-->
-    <link rel="stylesheet" href="./assets/css/normalize.css"/>
-
-    <!--CSS Custom-->
+    <!-- CSS Custom -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <title>Imobiliária UNIMATER</title>
+    <title>Imobiliária Unimater</title>
 </head>
-
 
 <body>
 
     <header>
         <div class="container">
             <div class="brand">
-                <img src="./assets/img/logo_imobiliaria.svg" alt="Logo marca imobiliaria">
+                <img src="./assets/img/logo_imobiliaria.svg" alt="Logomarca da imobiliária">
                 <h6>Imobiliária Unimater</h6>
             </div>
 
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#" class="active">Home</a>
                     </li>
                     <li>
                         <a href="#">Venda</a>
@@ -43,7 +39,7 @@
                         <a href="#">A Empresa</a>
                     </li>
                     <li>
-                        <a href="#">Fale com nosco</a>
+                        <a href="#">Fale Conosco</a>
                     </li>
                     <li>
                         <button>Login</button>
@@ -53,11 +49,59 @@
         </div>
     </header>
 
-    <MAIN>
+    <main>
         <div class="container">
+
             <section id="banner">
-                <h1>Lugar exato para você realizar os seus sonhos</h1>
-                <h3>Nós oferecemos um serviço completo de vendas, locação e compra</h3>
+                <div class="banner-content">
+                    <h1>Lugar exato para você realizar os seus sonhos</h1>
+                    <h3>Nós oferecemos um serviço completo de venda, locação e compra</h3>
+                </div>
+
+                <div class="banner-filter">
+                    <DIV class="filter-fields">
+
+                        <form>
+                            <select>
+                                <option value="venda">Venda</option>
+                                <option value="locacao">Locação</option>
+                            </select>
+
+                            
+                            <select>
+                                <option>Tipo Imóvel</option>
+                                <option value="apto">Apartamento</option>
+                                <option value="casa">Casa</option>
+                                <option value="sobrado">Sobrado</option>
+                                <option value="terreno">Terreno</option>
+                            </select>
+
+                            <select>
+                                <option>Cidade</option>
+                                <option value="cvv">Coronel Vivida</option>
+                                <option value="fb">Francisco Beltrão</option>
+                                <option value="pato">Pato Branco</option>
+                                <option value="saudade">Saudade do Iguaçu</option>
+                            </select>
+
+                            <select>
+                                <option>Bairoo</option>
+                                <option value="bra">Brasilia</option>
+                                <option value="centro"> Centro</option>
+                                <option value="lasalle">La Salle</option>
+                                <option value="pinheiros">Pinheiros</option>
+                            </select>
+                        </form>
+
+                    </DIV>
+
+                    <div class="filter-result">
+                        <p class="result-value">26</p>
+                        <p class="result-label">Imóveis</p>
+                        <button>filtrar</button>
+                    </div>
+
+                </div>
             </section>
 
             <section id="cards">
@@ -68,10 +112,12 @@
                     <div class="card">
                         <img src="./assets/img/thumb1.png" alt="Casa 1">
                         <div class="card-content">
-                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p>Perferendis accusantium, amet aperiam dolorum neque veritatis magnam rerum voluptatibus
-                                ad beatae corrupti
-                                iusto molestiae quod tempore sapiente hic earum esse quidem!</p>
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Atque veniam explicabo qui eius? Aspernatur officiis sed nam quae. Mollitia itaque,
+                                facere corporis eaque
+                                voluptates eligendi recusandae consequuntur non ullam fugiat.Atque veniam explicabo qui
+                                eius? Aspernatur officiis sed nam quae.</p>
+
                             <div class="card-price">
                                 <p>R$ 900.000,00</p>
                             </div>
@@ -81,10 +127,10 @@
                     <div class="card">
                         <img src="./assets/img/thumb2.png" alt="Casa 2">
                         <div class="card-content">
-                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p>Perferendis accusantium, amet aperiam dolorum neque veritatis magnam rerum voluptatibus
-                                ad beatae corrupti
-                                iusto molestiae quod tempore sapiente hic earum esse quidem!</p>
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Atque veniam explicabo qui eius? Aspernatur officiis sed nam quae. Mollitia itaque,
+                                facere corporis eaque
+                                voluptates eligendi recusandae consequuntur non ullam fugiat.</p>
                             <div class="card-price">
                                 <p>R$ 900.000,00</p>
                             </div>
@@ -94,50 +140,50 @@
                     <div class="card">
                         <img src="./assets/img/thumb3.png" alt="Casa 3">
                         <div class="card-content">
-                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p>Perferendis accusantium, amet aperiam dolorum neque veritatis magnam rerum voluptatibus
-                                ad beatae corrupti
-                                iusto molestiae quod tempore sapiente hic earum esse quidem!</p>
-                                <div class="card-price">
-                                    <p>R$ 900.000,00</p>
-                                </div>
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Atque veniam explicabo qui eius? Aspernatur officiis sed nam quae.</p>
+                            <div class="card-price">
+                                <p>R$ 900.000,00</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="./assets/img/thumb4.png" alt="Casa 4">
                         <div class="card-content">
-                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p>Perferendis accusantium, amet aperiam dolorum neque veritatis magnam rerum voluptatibus
-                                ad beatae corrupti
-                                iusto molestiae quod tempore sapiente hic earum esse quidem!</p>
-                                <div class="card-price">
-                                    <p>R$ 900.000,00</p>
-                                </div>
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Atque veniam explicabo qui eius? Aspernatur officiis sed nam quae. Mollitia itaque,
+                                facere corporis eaque
+                                voluptates eligendi recusandae consequuntur non ullam fugiat.</p>
+                            <div class="card-price">
+                                <p>R$ 900.000,00</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="./assets/img/thumb5.png" alt="Casa 5">
                         <div class="card-content">
-                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p>Perferendis accusantium, amet aperiam dolorum neque veritatis magnam rerum voluptatibus
-                                ad beatae corrupti
-                                iusto molestiae quod tempore sapiente hic earum esse quidem!</p>
-                            <p>R$ 900.000,00</p>
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Atque veniam explicabo qui eius? Aspernatur officiis sed nam quae. Mollitia itaque,
+                                facere corporis eaque
+                                voluptates eligendi recusandae consequuntur non ullam fugiat.</p>
+                            <div class="card-price">
+                                <p>R$ 900.000,00</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="./assets/img/thumb6.png" alt="Casa 6">
                         <div class="card-content">
-                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p>Perferendis accusantium, amet aperiam dolorum neque veritatis magnam rerum voluptatibus
-                                ad beatae corrupti
-                                iusto molestiae quod tempore sapiente hic earum esse quidem!</p>
-                                <div class="card-price">
-                                    <p>R$ 900.000,00</p>
-                                </div>
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Atque veniam explicabo qui eius? Aspernatur officiis sed nam quae. Mollitia itaque,
+                                facere corporis eaque
+                                voluptates eligendi recusandae consequuntur non ullam fugiat.</p>
+                            <div class="card-price">
+                                <p>R$ 900.000,00</p>
+                            </div>
                         </div>
                     </div>
 
@@ -145,8 +191,9 @@
             </section>
 
             <section id="reasons">
-                <h2>Por nos escolher?</h2>
-                <div class="reasons-conent">
+                <h2>Por que nos Escolher?</h2>
+
+                <div class="reasons-content">
 
                     <div class="reason">
                         <p class="reason-value">+1000</p>
@@ -171,67 +218,62 @@
                 </div>
             </section>
 
-            <section id="especialista">
+            <section id="specialists">
                 <h2>Converse com um Especialista</h2>
                 <div class="specialists-content">
+
                     <div class="specialist">
                         <h5>Tutu Williams</h5>
                         <p>London</p>
-                        <p class="specialist-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad eum
-                            excepturi sequi consectetur sunt. Nam impedit, est voluptates ad quo sunt non dicta.
-                            Asperiores reprehenderit rerum id quasi? Veritatis, blanditiis.</p>
+                        <p class="specialist-detail">Lorem ipsum ;dolor sit amet consectetur adipisicing elit.
+                            Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque
+                            voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!
+                        </p>
                     </div>
-                </div>
-            </section>
 
-            <section id="especialista">
-                <h2>Converse com um Especialista</h2>
-                <div class="specialists-content">
                     <div class="specialist">
-                        <h5>Mark Zium</h5>
-                        <p>NY City</p>
-                        <p class="specialist-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad eum
-                            excepturi sequi consectetur sunt. Nam impedit, est voluptates ad quo sunt non dicta.
-                            Asperiores reprehenderit rerum id quasi? Veritatis, blanditiis.</p>
+                        <h5>Mark Zion</h5>
+                        <p>New York City</p>
+                        <p class="specialist-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque
+                            voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!
+                        </p>
                     </div>
-                </div>
-            </section>
 
-            <section id="especialista">
-                <h2>Converse com um Especialista</h2>
-                <div class="specialists-content">
                     <div class="specialist">
                         <h5>Essien Crest</h5>
                         <p>Berlin</p>
-                        <p class="specialist-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad eum
-                            excepturi sequi consectetur sunt. Nam impedit, est voluptates ad quo sunt non dicta.
-                            Asperiores reprehenderit rerum id quasi? Veritatis, blanditiis.</p>
+                        <p class="specialist-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque
+                            voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!
+                        </p>
                     </div>
+
                 </div>
             </section>
 
             <section id="values">
-                <h2>Quem é a Imobiliária Unimater?</h2>
+                <h2>Que é a Imobiliária Unimater?</h2>
 
-                <div class="vallues-container">
-                    <img src="./assets/img/place-company.png" alt="foto da firma">
+                <div class="values-container">
+                    <img src="./assets/img/place-company.png" alt="Foto da firma" />
 
-                    <div class="valies-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, facere corrupti laborum,
-                            quibusdam assumenda amet saepe molestiae dolores recusandae impedit hic numquam, suscipit
-                            quia eum nemo corporis accusantium et modi.</p>
+                    <div class="values-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dignissimos dolores
+                            necessitatibus, blanditiis corporis veritatis impedit velit temporibus mollitia hic sed
+                            fugit at vitae non exercitationem rem corrupti nostrum officia.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste voluptate quaerat
-                            veniam iure libero beatae nemo sed quae neque saepe ipsum, magni impedit itaque dolor ipsa?
-                            Recusandae, repellendus molestiae.</p>
+                        <p>Neque eveniet fugiat at deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Vero esse doloremque perferendis! Culpa earum reiciendis repudiandae, officiis magnam
+                            voluptate ex quas deleniti, enim ad excepturi.</p>
 
                         <div class="value-detail">
-                            <div class="values">
+                            <div class="value">
                                 <span>Alto Padrão</span>
                                 <span>Agilidade</span>
                             </div>
 
-                            <div class="values">
+                            <div class="value">
                                 <span>Facilidade</span>
                                 <span>Confiabilidade</span>
                             </div>
@@ -240,53 +282,53 @@
                 </div>
             </section>
         </div>
-    </MAIN>
+    </main>
 
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-company">
-                    <p class="footer-logo">Imobiliaria Unimater</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos molestiae ducimus ipsam, voluptas
-                        eveniet soluta, ut iste, harum error itaque sint autem odit repellat illo animi perferendis
-                        facilis inventore quibusdam?</p>
+                    <p class="footer-logo">Imobiliária UNIMATER</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minus consequuntur nam saepe.
+                        Quidem laborum iste dolores libero dignissimos. Tempore vero molestias aliquid voluptatibus
+                        dolor tempora, fugit ad doloremque autem.</p>
+                </div>
+
+                <div class="footer-menu">
+                    <p class="footer-menu-title">Nossa Empresa</p>
+                    <ul>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Especialistas</a></li>
+                        <li><a href="#">Missão e Visão</a></li>
+                        <li><a href="#">Nossos Valores</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu">
+                    <p class="footer-menu-title">Contato</p>
+                    <ul>
+                        <li>+55 (46) 9 9999-9999</li>
+                        <li>Rua Mato Grosso, 200</li>
+                        <li>Pato Branco - PR</li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu">
+                    <p class="footer-menu-title">Parceiross</p>
+                    <ul>
+                        <li><a href="#">Empresa XPTO</a></li>
+                        <li><a href="#">Empresa do Zeca</a></li>
+                        <li><a href="#">Empresa do Chico</a></li>
+                        <li><a href="#">Empresa do Tonho</a></li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="footer-menu">
-                <p class="footer-menu-title">Nossa Empresa</p>
-                <ul>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Especialistas</a></li>
-                    <li><a href="#">Missão e Visão</a></li>
-                    <li><a href="#">Nossos Valores</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-menu">
-                <p class="footer-menu-title">Nossa Empresa</p>
-                <ul>
-                    <li>+55 (46) 9 9999-9999</li>
-                    <li>Rua Mato Grosso, 200</li>
-                    <li>Pato Branco - PR</li>
-                </ul>
-            </div>
-
-            <div class="footer-menu">
-                <p class="footer-menu-title">Contato</p>
-                <ul>
-                    <li><a href="#">Empresa 1</a></li>
-                    <li><a href="#">Empresa 2</a></li>
-                    <li><a href="#">empresa 3</a></li>
-                    <li><a href="#">Empresa 4</a></li>
-                </ul>
-            </div>
-
-            <div class="footter-social">
-                <span class="Facebook"></span>
-                <snap class="Twitter"></snap>
-                <span class="Instagram"></span>
-                <span class="Linkedin"></span>
+            <div class="footer-social">
+                <span class="facebook"></span>
+                <span class="twitter"></span>
+                <span class="instagram"></span>
+                <span class="linkedin"></span>
             </div>
 
             <p class="footer-copyright">
