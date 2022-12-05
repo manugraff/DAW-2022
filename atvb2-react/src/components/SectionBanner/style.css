@@ -1,0 +1,11 @@
+.container .banner img {
+    width: 920px;
+    height: 490px;
+    margin-left: 135px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.banner {
+    background-color: rgb(245, 222, 18);
+}

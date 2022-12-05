@@ -1,0 +1,81 @@
+.container h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.products-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.product .brinquedo1 {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product .brinquedo1:hover {
+    transform: scale(1.1);
+}
+
+.product .brinquedo2 {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product .brinquedo2:hover {
+    transform: scale(1.1);
+}
+
+.product .brinquedo3 {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product .brinquedo3:hover {
+    transform: scale(1.1);
+}
+
+.product .petisco {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product .petisco:hover {
+    transform: scale(1.1);
+}
+
+.product .racao {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product .racao:hover {
+    transform: scale(1.1);
+}
+
+.product .kit {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product .kit:hover {
+    transform: scale(1.1);
+}
+
+.product-content h4 {
+    margin-top: 8px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.product-content p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

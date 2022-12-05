@@ -1,0 +1,74 @@
+.vallues-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.values-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.vallues-container .simba {
+    width: 300px;
+
+}
+
+.vallues-container .simba2 {
+    width: 300px;
+
+}
+
+.values-content {
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+    gap: 24px;
+    padding: 24px;
+    background-color: rgb(255, 253, 132);
+}
+
+
+.values-content h2 {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.values-content h3 {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.values-content p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.values-content button {
+    background-color: rgb(245, 222, 18);
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    margin-left: 10x;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.values-content button:hover {
+    background-color: rgb(248, 238, 142);
+    color: rgb(8, 5, 5);
+}
