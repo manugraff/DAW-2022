@@ -8,14 +8,10 @@ export function HomePage() {
     return (
         <div id="home-page">
             <div className="container">
-
-                <SectionBanner />
-
-                <SectionCategorias />
-
-                <SectionProducts />
-
-                <SectionValues />
+                <SectionBanner/>
+                <SectionCategorias/>
+                <SectionProducts/>
+                <SectionValues/>
             </div>
         </div>
     )

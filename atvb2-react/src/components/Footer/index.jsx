@@ -7,45 +7,44 @@ import imgLinkedin from '../../assets/img/linkedin_icon-icons.com_65439.png';
 export function Footer() {
     return (
         <footer>
-            <div class="container">
-                <div class="footer-menu">
-                    <div class="footer-company">
+            <div className="container">
+                <div className="footer-menu">
+                    <div className="footer-company">
                         <h3>Simba's Pet</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minus consequuntur nam saepe.
-                            Quidem laborum iste dolores libero dignissimos. .</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minus consequuntur nam saepe. Quidem laborum iste dolores libero dignissimos.</p>
                     </div>
 
 
                     <ul>
-                        <p class="footer-menu-title">Nossa Empresa</p>
+                        <p className="footer-menu-title">Nossa Empresa</p>
                         <li><a href="#">Produtos recomendados</a></li>
                         <li><a href="#">Sobre Nós</a></li>
                         <li><a href="#">Missão e Visão</a></li>
                     </ul>
                 </div>
 
-                <div class="footer-menu">
+                <div className="footer-menu">
 
                     <ul>
-                        <p class="footer-menu-title">Informações para contato</p>
+                        <p className="footer-menu-title">Informações para contato</p>
                         <li>+55 (46) 9 9999-9999</li>
                         <li>Centro, 500</li>
                         <li>Pato Branco - PR</li>
                     </ul>
                 </div>
 
-                <div class="footter-social">
-                    <span class="Facebook">
-                        <img src={imgFace} alt="">
+                <div className="footter-social">
+                    <span className="Facebook">
+                        <img src={imgFace} alt=""/>
                     </span>
-                    <snap class="Twitter">
-                        <img src={imgTwitter} alt="">
+                    <snap className="Twitter">
+                        <img src={imgTwitter} alt=""/>
                     </snap>
-                    <span class="Instagram">
-                        <img src={imgInsta} alt="">
+                    <span className="Instagram">
+                        <img src={imgInsta} alt=""/>
                     </span>
-                    <span class="Linkedin">
-                        <img src={imgLinkedin} alt="">
+                    <span className="Linkedin">
+                        <img src={imgLinkedin} alt=""/>
                     </span>
                 </div>
 
